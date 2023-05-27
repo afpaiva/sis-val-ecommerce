@@ -7,12 +7,13 @@ import { Consumidor } from "../models/Consumidor.mjs";
 
 const form = document.querySelector("#create-account-form");
 
-form.addEventListener("submit", (e) => {
+form.addEventListener("submit", async (e) => {
   e.preventDefault();
   const consumidor = new Consumidor({
     name: e.target.name.value,
     email: e.target.email.value,
     password: e.target.password.value,
   });
-  console.log(consumidor.getConsumidor());
+  await consumidor.saveConsumidor();
+  window.location.replace("../website/account_created.html");
 });
