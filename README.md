@@ -1,5 +1,34 @@
 ### sis-val-ecommerce
 
+# Preparação do ambiente de desenvolvimento:
+
+1- Utilize o navegador Chrome
+
+2- Acesse `chrome://extensions/`
+
+3- Ative o modo desenvolvedor no canto superior direito:
+
+![](./src/view/assets/instructions_01.png)
+
+4- Clique em `Load Unpacked` e aponte para pasta a raíz do projeto:
+
+![](./src/view/assets/instructions_02.png)
+
+5-  Copie o `ID`
+
+![](./src/view/assets/instructions_03.png)
+
+6- Troque em todos os arquivos `html` que façam referência a ele:
+
+![](./src/view/assets/instructions_04.png)
+
+7- A extensão poderá ser acessada pela barra de pesquisa do navegador:
+
+![](./src/view/assets/instructions_05.png)
+
+
+<hr/>
+
 # Casos de Uso a serem implementados:
 
 ## Informar uma compra:
