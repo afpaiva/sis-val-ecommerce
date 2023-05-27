@@ -1,0 +1,13 @@
+{
+  "name": "Sistema de Validação para E-Commerce",
+  "version": "1.0",
+  "description": "Valida se um site e-commerce é seguro",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "src/view/extension/index.html"
+  },
+  "manifest_version": 3
+}
