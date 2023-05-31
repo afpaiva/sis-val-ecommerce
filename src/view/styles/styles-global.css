@@ -1,21 +1,21 @@
-.col{
+.col {
   display: flex;
   flex-direction: column;
 }
 
-.start{
+.start {
   justify-content: flex-start;
 }
 
-.center{
+.center {
   align-items: center;
 }
 
-.v-space-5 > *{
+.v-space-5>* {
   margin: 5px 0;
 }
 
-.h-space-5 > *{
+.h-space-5>* {
   margin: 0 5px;
 }
 
@@ -44,7 +44,7 @@ a {
   color: blue;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
   cursor: pointer;
 }
