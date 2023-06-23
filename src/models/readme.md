@@ -1,6 +1,6 @@
 # Pasta `models`
 
-Se formos seguir no MVC, podemos incluir aqui as models.
+Implementações responsáveis pela manipulação dos dados relativos às entidades (Atores).
 
 #### **Interfaces dos objetos referentes aos Atores do projeto:**
 
