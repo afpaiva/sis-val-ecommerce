@@ -1,5 +1,20 @@
 ### sis-val-ecommerce
 
+# Proposta do trabalho:
+
+1- Implementar um MVP do projeto apresentado e disponibilizar acesso ao projeto ou ao código-fonte. Pode-se, também, gravar um vídeo mostrando a execução do sistema, simulando algum caso de uso.
+
+
+2- Identificar no projeto, padrões utilizados, conforme descritos por Fowler ou GoF.
+  - 1º padrão identificado: `Padrão MVC (Model View Controller)`
+      - [Model](https://github.com/afpaiva/sis-val-ecommerce/tree/main/src/models)
+      - [View](https://github.com/afpaiva/sis-val-ecommerce/tree/main/src/view)
+      - [Controller](https://github.com/afpaiva/sis-val-ecommerce/tree/main/src/view)
+  - 2º padrão identificado: `Padrão Microkernel (ou Plugin)`
+      - Pois permite o acoplamento de features ao core da aplicação (considerando *core* o navegador, em se tratando de uma extensão).
+
+<hr/>
+
 # Preparação do ambiente de desenvolvimento:
 
 1- Utilize o navegador Chrome
@@ -29,7 +44,7 @@
 
 <hr/>
 
-# Casos de Uso a serem implementados:
+# Alguns Casos de Uso:
 
 ## Informar uma compra:
 
